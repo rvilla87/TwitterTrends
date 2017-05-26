@@ -31,7 +31,7 @@ PATH=C:\Python;C:\Python\Scripts;%HADOOP_HOME%\bin;%SPARK_HOME%\bin;%PYTHONPATH%
 ~~~
 
 ### PySpark
-In order to run need to install the library py4j:
+In order to run PySpark you need to install the Python library py4j:
 ~~~
 pip install py4j
 ~~~
