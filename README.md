@@ -19,7 +19,7 @@ PATH=C:\Python;C:\Python\Scripts;%HADOOP_HOME%\bin;%SPARK_HOME%\bin;%PYTHONPATH%
 ~~~
 
 - *NOTES*:
-    - JAVA_HOME must match your Java downloaded version (in my case 1.8.0_131). "Progra~1" for 32bits path installation and "Progra~2" for 64bits.
+    - JAVA_HOME must match your Java downloaded version (in my case 1.8.0_131). "Progra\~1" for 32bits path installation and "Progra\~2" for 64bits.
     - PYTHONPATH is the path were Python will look for additional libraries. In this case, is set to look for the spark ones.
     - In path variable %PATH% means the same PATH value you already have. Basically add the new paths at the beginning of the PATH value.
     - In order to avoid troubles, you sould set **hadoop.tmp.dir** in file *\hadoop\etc\hadoop\core-site.xml* with Hadoop tmp directory we want (note that drive letter la unidad is preceded by /). For example:
