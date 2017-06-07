@@ -1,6 +1,13 @@
 # Big-Data
 
-## Project 1: ETL with PySpark+Hadoop (Work in progress)
+## Project 1: ETL with Spark and HDFS
+The goal of this project is to do some ETL (Extract, Transform and Load)  with the Spark Python API ([PySpark](https://spark.apache.org/docs/latest/api/python/pyspark.html)) and Hadoop Distributed File System ([HDFS](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html)).
+
+Working with CSV's files from [HiggsTwitter dataset](http://snap.stanford.edu/data/higgs-twitter.html) we'll do :
+- Convert CSV's dataframes to [Apache Parquet](https://parquet.apache.org/) files
+- Use Spark SQL using DataFrames API and SQL language.
+- Some performance testing like compressed CSV vs Parquet, cached DF vs not cached DF and local file access vs local HDFS access.
+
 
 ### Hadoop
 Hadoop can be downloaded from [Hadoop releases webpage](http://hadoop.apache.org/releases.html). These releases do not include [winutils](https://github.com/steveloughran/winutils/releases) (Windows binaries for Hadoop versions) required in order to run Hadoop in Windows systems.
@@ -37,3 +44,7 @@ pip install py4j
 ~~~
 
 Then you can go to [jupyter ETL example](./PySpark/jupyter/ETL.ipynb) in order to see some ETL with PySpark.
+
+
+
+## Project 2: Running Spark on YARN (Work in progress)
