@@ -50,9 +50,7 @@ Then you can go to [jupyter ETL example](./jupyter/ETL.ipynb) in order to see so
 
 
 
-## Project 2: Running Spark on YARN (Pending)
-
-## Project 3: MongoDB Tutorial and examples
+## Project 2: MongoDB Tutorial and examples
 [MongoDB.ipynb](./jupyter/MongoDB.ipynb): Some uses cases of Pymongo (**MongoDB** with Python) that includes:
 - PyMongo [Tutorial](http://api.mongodb.com/python/current/tutorial.html)
 - [Back to Basics](https://www.mongodb.com/presentations/back-to-basics-introduction-to-mongodb)
