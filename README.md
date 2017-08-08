@@ -1,5 +1,12 @@
 # Big-Data
 
+## Table of Contents
+|Project |Description |Keywords|
+|:----------|:-------------|:--------|
+| [ETL with Spark and HDFS](https://github.com/rvilla87/Big-Data#project-1-etl-with-spark-and-hdfs)| ETL (Extract, Transform and Load) with the Spark Python API (PySpark) and Hadoop Distributed File System (HDFS).| *Spark, Spark SQL, PySpark, Hadoop, HDFS, CVS, Apache Parquet* |
+| [MongoDB Tutorial and examples](https://github.com/rvilla87/Big-Data#project-2-mongodb-tutorial-and-examples) | Some uses cases of Pymongo (MongoDB with Python) | *MongoDB, Pymongo, documents, Geospatial querys* |
+
+
 ## Project 1: ETL with Spark and HDFS
 The goal of this project is to do some ETL (Extract, Transform and Load)  with the Spark Python API ([PySpark](https://spark.apache.org/docs/latest/api/python/pyspark.html)) and Hadoop Distributed File System ([HDFS](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html)).
 
@@ -50,9 +57,7 @@ Then you can go to [jupyter ETL example](./jupyter/ETL.ipynb) in order to see so
 
 
 
-## Project 2: Running Spark on YARN (Pending)
-
-## Project 3: MongoDB Tutorial and examples
+## Project 2: MongoDB Tutorial and examples
 [MongoDB.ipynb](./jupyter/MongoDB.ipynb): Some uses cases of Pymongo (**MongoDB** with Python) that includes:
 - PyMongo [Tutorial](http://api.mongodb.com/python/current/tutorial.html)
 - [Back to Basics](https://www.mongodb.com/presentations/back-to-basics-introduction-to-mongodb)
