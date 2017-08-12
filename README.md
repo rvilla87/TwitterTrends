@@ -98,25 +98,25 @@ The project consist in the next 4 processes (each of one is a [Jupyter Notebook]
 
 
 ### Starting Kafka and MongoDB servers
-In order to run [TwitterTrends-2-FileToKafka](jupyter/TwitterTrends-2-FileToKafka.ipynb) we need to start Kafka server. For [TwitterTrends-3-KafkaToMongoDB](jupyter/TwitterTrends-3-KafkaToMongoDB.ipynb) we need to start Kafka server and MongoDB.
+In order to run [TwitterTrends-2-FileToKafka](jupyter/TwitterTrends-2-FileToKafka.ipynb) we need to start Kafka server. For [TwitterTrends-3-KafkaToMongoDB](jupyter/TwitterTrends-3-KafkaToMongoDB.ipynb) we need to start Kafka server and MongoDB server.
 
 Here's some indications about how to do it:
 
 #### Starting Kafka server
-First we have to Kafka binaries directory in our system PATH and execute the next commands in kafka directory: 
+First we need to add Kafka binaries directory in our system PATH and execute the next commands on kafka directory: 
 
 1) Start ZooKeeper instance:
 `zookeeper-server-start.bat config/zookeeper.properties`
 2) Start the Kafka server
 `kafka-server-start.bat config/server.properties`
-3) Create a topic:
+3) Create a topic (*first run only*):
 `kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic tweeterTopic`
 
 You can see detailed explanation as well as the Unix commands in [Kafka Quickstart](https://kafka.apache.org/quickstart).
 
 
 #### Starting MongoDB server
-We have to add MongoDB binaries directory in our system PATH and to type `mongod` in a command line.
+We need to add MongoDB binaries directory in our system PATH and to type `mongod` in a command line.
 
 Once started, If we want to use a GUI for MongoDB, we can use [MongoDB Compass](https://www.mongodb.com/products/compass).
 
