@@ -80,7 +80,7 @@ This **streaming project** obtains current **Twitter's trending topic** and show
 ![twitterTrends](images/twitterTrends.png "twitterTrends")
 
 
-The project consist in the next 4 processes (each of one is a [Jupyter Notebook](http://jupyter.org/)). Here's a brief description, you can find detailed info inside each notebook:
+The project consists in the next 4 processes (each of one is a [Jupyter Notebook](http://jupyter.org/)). Here's a brief description, you can find detailed info inside each notebook:
 
 - **[TwitterTrends-1-TrendsToFile](jupyter/TwitterTrends-1-TrendsToFile.ipynb)** (Scala): It obtains trending topic with twitter4j's methods: [getAvailableTrends](http://twitter4j.org/javadoc/twitter4j/api/TrendsResources.html#getAvailableTrends--) (return locations with trending topics) and [getPlaceTrends](http://twitter4j.org/javadoc/twitter4j/api/TrendsResources.html#getPlaceTrends-int-) (returns the top 10 trending topics for a specific location) and save all info into a file.
 - **[TwitterTrends-2-FileToKafka](jupyter/TwitterTrends-2-FileToKafka.ipynb)** (Scala): It streams trending topic from a file to a Kafka topic using Spark Structured Streaming.
