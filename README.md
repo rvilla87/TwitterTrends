@@ -103,6 +103,8 @@ In order to run [TwitterTrends-2-FileToKafka](jupyter/TwitterTrends-2-FileToKafk
 Here's some indications about how to do it:
 
 #### Starting Kafka server
+First we have to Kafka binaries directory in our system PATH and execute the next commands in kafka directory: 
+
 1) Start ZooKeeper instance:
 `zookeeper-server-start.bat config/zookeeper.properties`
 2) Start the Kafka server
@@ -114,7 +116,7 @@ You can see detailed explanation as well as the Unix commands in [Kafka Quicksta
 
 
 #### Starting MongoDB server
-We have to add MongoDB binaries directory in the environment PATH and to type `mongod` in a command line.
+We have to add MongoDB binaries directory in our system PATH and to type `mongod` in a command line.
 
 Once started, If we want to use a GUI for MongoDB, we can use [MongoDB Compass](https://www.mongodb.com/products/compass).
 
