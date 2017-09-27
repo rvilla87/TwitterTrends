@@ -55,7 +55,7 @@ In order to run PySpark you need to install the Python library py4j:
 pip install py4j
 ~~~
 
-Then you can go to [jupyter ETL example](jupyter/ETL.ipynb) in order to see some ETL with PySpark.
+Then you can go to [Jupyter Notebook ETL example](jupyter/ETL.ipynb) in order to see some ETL with PySpark.
 
 ___
 
