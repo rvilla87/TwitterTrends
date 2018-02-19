@@ -3,9 +3,9 @@
 ## Table of Contents
 |Project |Description |Keywords|
 |:----------|:-------------|:--------|
-| [ETL with Spark and HDFS](https://github.com/rvilla87/Big-Data#project-1-etl-with-spark-and-hdfs)| ETL (Extract, Transform and Load) with the Spark Python API (PySpark) and Hadoop Distributed File System (HDFS). [Jupyter Notebook](./jupyter/ETL.ipynb)| *Spark, Spark SQL, PySpark, Hadoop, HDFS, CVS, Apache Parquet* |
-| [MongoDB Tutorial and examples](https://github.com/rvilla87/Big-Data#project-2-mongodb-tutorial-and-examples) | Some uses cases of Pymongo (MongoDB with Python).  [Jupyter Notebook](jupyter/MongoDB.ipynb) | *MongoDB, Pymongo, documents, Geospatial querys* |
-| [TwitterTrends](https://github.com/rvilla87/Big-Data#project-3-twittertrends) | Get Twitter trends with twitter4j, stream it to a Kafka topic, save it to MongoDB and visualize in Google Maps. Jupyter Notebooks: [1-TrendsToFile](jupyter/TwitterTrends-1-TrendsToFile.ipynb), [2-FileToKafka](jupyter/TwitterTrends-2-FileToKafka.ipynb), [3-KafkaToMongoDB](jupyter/TwitterTrends-3-KafkaToMongoDB.ipynb), [4-MongoDBtoGMaps](jupyter/TwitterTrends-4-MongoDBtoGMaps.ipynb) | *twitter4j, trends, Spark Structured Streaming, dataframe, Kafka, MongoDB, Pymongo, Google Maps, coordinates, ipywidgets*
+| [ETL with Spark and HDFS](https://github.com/rvilla87/Big-Data#project-1-etl-with-spark-and-hdfs)| ETL (Extract, Transform and Load) with the Spark Python API (PySpark) and Hadoop Distributed File System (HDFS). [Jupyter Notebook](./jupyter/ETL.ipynb)| *Spark, Spark SQL, PySpark, Hadoop, HDFS, CVS, Apache Parquet, Python* |
+| [MongoDB Tutorial and examples](https://github.com/rvilla87/Big-Data#project-2-mongodb-tutorial-and-examples) | Some uses cases of Pymongo (MongoDB with Python).  [Jupyter Notebook](jupyter/MongoDB.ipynb) | *MongoDB, Pymongo, documents, Geospatial querys, Python* |
+| [TwitterTrends](https://github.com/rvilla87/Big-Data#project-3-twittertrends) | Get Twitter trends with twitter4j, stream it to a Kafka topic, save it to MongoDB and visualize in Google Maps. Jupyter Notebooks: [1-TrendsToFile](jupyter/TwitterTrends-1-TrendsToFile.ipynb), [2-FileToKafka](jupyter/TwitterTrends-2-FileToKafka.ipynb), [3-KafkaToMongoDB](jupyter/TwitterTrends-3-KafkaToMongoDB.ipynb), [4-MongoDBtoGMaps](jupyter/TwitterTrends-4-MongoDBtoGMaps.ipynb) | *twitter4j, trends, Spark Structured Streaming, dataframe, Kafka, MongoDB, Pymongo, Google Maps, coordinates, ipywidgets, Scala, Python*
 
 ___
 
