@@ -13,7 +13,7 @@ ___
 The goal of this project is to do some ETL (Extract, Transform and Load)  with the Spark Python API ([PySpark](https://spark.apache.org/docs/latest/api/python/pyspark.html)) and Hadoop Distributed File System ([HDFS](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html)).
 
 Working with CSV's files from [HiggsTwitter dataset](http://snap.stanford.edu/data/higgs-twitter.html) we'll do :
-- Convert CSV's dataframes to [Apache Parquet](https://parquet.apache.org/) files
+- Convert CSV's dataframes to [Apache Parquet](https://parquet.apache.org/) files.
 - Use **Spark SQL** using DataFrames API and SQL language.
 - Some **performance testing** like compressed CSV vs Parquet, cached DF vs not cached DF and local file access vs local HDFS access.
 
