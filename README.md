@@ -59,7 +59,7 @@ Once started, If we want to use a GUI for MongoDB, we can use [MongoDB Compass](
     
     In Scala Jupyter Notebook we manage libraries executing the next statement in the notebook:	 
     ```Scala
-    import $ivy.`org.apache.spark::spark-sql`:2.2.0
+    import $ivy.`org.apache.spark::spark-sql:2.2.0`
     ```
 
     In either case we need to load the libraries as we normally do, for example: `import org.apache.spark`
